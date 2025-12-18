@@ -1,0 +1,84 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Color de fondo suave para toda la página (un gris azulado claro) */
+    background-color: #eef2f5;
+    color: #333; /* Color de texto gris oscuro para buena lectura */
+    margin: 0; /* Quitamos los márgenes por defecto del navegador */
+    padding: 0;
+}
+
+/* Estilos del Encabezado */
+header {
+    /* Un azul intenso inspirado en la camiseta de Brasil/PSG */
+    background-color: #003399;
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 2rem 0; /* Espacio arriba y abajo */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Una sombra suave debajo */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Estilos del Contenido Principal */
+main {
+    /* Limitamos el ancho para que sea fácil de leer en pantallas grandes */
+    max-width: 800px;
+    /* Centramos el bloque main horizontalmente */
+    margin: 40px auto;
+    /* Color de fondo BLANCO para que el contenido resalte sobre el fondo gris del body */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(0,0,0,0.05); /* Sombra alrededor del contenedor */
+}
+
+/* Estilos para las secciones internas */
+h2, h3 {
+    /* Usamos el mismo azul del header para los subtítulos */
+    color: #003399;
+}
+
+/* Estilo para la imagen */
+img {
+    /* Hacemos que la imagen sea "responsive" */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0; /* Margen arriba y abajo */
+    border-radius: 8px;
+    border: 3px solid #f1c40f; /* Un borde amarillo/dorado */
+}
+
+/* Estilo para la línea separadora */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+/* Estilos para la lista */
+ul li {
+    margin-bottom: 10px; /* Espacio entre los puntos de la lista */
+    line-height: 1.5;
+}
+
+/* Estilos del Pie de Página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222; /* Fondo oscuro */
+    color: #aaa; /* Texto gris claro */
+    font-size: 0.9rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos uno debajo del otro */
+    align-items: center;    /* Centra todo horizontalmente */
+    text-align: center;     /* Asegura que las líneas de texto también se centren */
+}
